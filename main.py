@@ -1,5 +1,4 @@
 import cv2
-
 image_input = input("The location of the image: ")
 image = cv2.imread(image_input)
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
